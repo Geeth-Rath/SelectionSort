@@ -16,7 +16,7 @@ public class SelectionSort {
             }
         System.out.println("After Swap: " + numbList);
         }
-        public void swap(int i, int j, ArrayList list){
+        public void swap(int i, int j, ArrayList<Integer> list){
             int temp = (int) list.get(i);
             list.set(i , list.get(j));
             list.set(j , temp);
